@@ -18,5 +18,5 @@ for i in range(1,25,1):
 plt.title('He')
 plt.ylabel('photons total energy - Ip')
 plt.xlabel('Intensity (W/cm^2)')
-ax.set_yscale('log')
+
 plt.show()
