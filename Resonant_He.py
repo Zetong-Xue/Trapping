@@ -33,7 +33,7 @@ plt.text(100,0.903849 - 2*45.6/100, '2 $\omega$')
 x = np.arange(100, 1000, 1)
 y = 0.903849 - 3*45.6/x
 plt.plot(x, y, 'r')
-plt.text(100,0.903849 - 3*45.6/100, '1 $\omega$')
+plt.text(100,0.903849 - 3*45.6/100, '3 $\omega$')
 
 plt.title('He')
 plt.ylabel('|IP - E_n|')

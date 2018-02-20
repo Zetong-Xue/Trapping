@@ -12,9 +12,12 @@ for i in range(1,25,1):
     y = (4*(45.6/x)*(45.6/x)*(i * 45.6/x + -0.5))/(2.8*10**-17)
     plt.ylim(10**12,10**15)
     plt.semilogy(x, y, label = i)
-    plt.legend(bbox_to_anchor=(1, 1),
-           bbox_transform=plt.gcf().transFigure)
+    plt.legend()
 
+           
+plt.axvline(800, color='k', linestyle='--')
+plt.axvline(400, color='k', linestyle='--')
+plt.axvline(267, color='k', linestyle='--')
 
 
 plt.title('H  Intensity vs $\lambda$')

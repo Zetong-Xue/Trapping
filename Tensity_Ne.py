@@ -15,7 +15,9 @@ for i in range(1,25,1):
     plt.legend(bbox_to_anchor=(1, 1),
            bbox_transform=plt.gcf().transFigure)
 
-
+plt.axvline(800, color='k', linestyle='--')
+plt.axvline(400, color='k', linestyle='--')
+plt.axvline(267, color='k', linestyle='--')
 
 plt.title('Ne Intensity vs $\lambda$')
 plt.ylabel('I(w/cm^2)')
